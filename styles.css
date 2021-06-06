@@ -1,0 +1,177 @@
+/* Corpo */
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.931);
+}
+body{
+    padding: 100px;
+    background-image: url(img/background.jpg);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.931) 
+}
+
+section{
+    background: linear-gradient(rgb(163, 147, 2), rgb(197, 161, 2), rgb(139, 130, 2));
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+}
+
+/* Id's */
+.spinner-border{
+    color: rgb(116, 114, 4);
+    margin-top: 5px;
+}
+.text-center{
+    border: 8px solid rgba(0, 0, 0, 0.411); 
+    padding: 30px;
+    background-color: rgb(44, 1, 0);
+    height: 600px;
+    border-radius: 10px;
+    
+   
+}
+
+/* Imagem */
+.numbers{
+    height: 220px;
+    width: 500px;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+
+/*--Botões--*/
+ button{
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 200ms;
+    background-color: #b8b8b8e7;
+    font-weight: bold;
+    border:none;
+    cursor: pointer; 
+    box-shadow: 0 9px #999;
+} 
+#conteudo{
+    margin-top: 40px;
+}
+#textregra{
+    margin-top: -20px;
+} 
+#botoesetc{
+    text-align: center;
+    justify-content: space-between;
+}
+
+#umjogador{
+    margin-left: 29px;  
+    outline:none;
+}
+#doisjogadores{
+    margin-left: 290px;  
+    outline:none;    
+}
+#btnvoltar{
+    margin-left: 30px;
+    outline:none;
+}
+#newgame{
+    margin-left: 340px;
+    outline: none;
+}
+#regras{
+    border: none;
+    margin-left: 245px;
+    margin-top: -30px;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 2px;
+}
+
+
+#umjogador:hover{
+    background-color: rgb(61, 3, 3);
+}
+#doisjogadores:hover{
+    background-color: rgb(61, 3, 3);
+}
+#btnvoltar:hover{
+    background-color: rgb(61, 3, 3);
+}
+#newgame:hover{
+    background-color: rgb(61, 3, 3);
+}
+#regras:hover{
+    background-color: rgb(61, 3, 3);
+}
+
+#regras:active{
+    background-color:rgb(44, 1, 0);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#newgame:active {
+    background-color: rgb(44, 1, 0);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+#umjogador:active {
+    background-color: rgb(44, 1, 0);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+#doisjogadores:active {
+    background-color: rgb(44, 1, 0);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+#btnvoltar:active {
+    background-color:rgb(44, 1, 0);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#add1{
+    background-color: rgb(3, 114, 40);
+    outline:none; 
+}
+#add2{
+    background-color: rgb(3, 114, 40);
+    outline:none;      
+}
+#add3{
+    background-color: rgb(3, 114, 40);
+    outline:none;       
+}
+#add1:hover{
+    background-color: rgb(2, 83, 39);
+}
+#add2:hover{
+    background-color: rgb(2, 83, 39);
+}
+#add3:hover{
+    background-color: rgb(2, 83, 39);
+}
+#add1:active {
+    background-color: rgb(2, 83, 39);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+#add2:active {
+    background-color: rgb(2, 83, 39);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+#add3:active {
+    background-color: rgb(2, 83, 39);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
